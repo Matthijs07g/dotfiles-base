@@ -3,7 +3,7 @@
 set -e
 
 echo "Restowing dotfiles..."
-PACKAGES=(hypr waybar yazi)
+PACKAGES=(hypr alacritty)
 for package in "${PACKAGES[@]}"; do
     stow --restow --target="$HOME" "$package"
 done

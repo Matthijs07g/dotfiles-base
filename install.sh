@@ -8,7 +8,7 @@ sudo pacman -S --needed \
     stow git
 
 echo "Stowing dotfiles..."
-PACKAGES=(hypr waybar yazi)
+PACKAGES=(hypr alacritty)
 for package in "${PACKAGES[@]}"; do
 	rm -rf ~/.config/$package
     	stow --target="$HOME" "$package"
