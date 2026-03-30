@@ -21,6 +21,9 @@ alacritty/.config/alacritty/
 
 ## Install
 
+> [!NOTE]
+> The only opinionated choice this config makes is Alacritty as the terminal running Fish shell. Both can be swapped out easily in env.conf and alacritty.toml.
+
 ```bash
 git clone https://github.com/Matthijs07g/dotfiles-base ~/dotfiles
 cd ~/dotfiles
@@ -28,9 +31,6 @@ bash install.sh
 ```
 
 After install, edit `monitors.conf` to match your display setup if needed. Everything else works out of the box.
-
-> [!NOTE]
-> The only opinionated choice this config makes is **Alacritty** as the terminal running **Fish** shell. Both can be swapped out easily in `env.conf` and `alacritty.toml`. 
 
 ## Managing config files
 
