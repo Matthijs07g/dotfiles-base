@@ -1,2 +1,3 @@
-[shell]
+[terminal]
+[terminal.shell]
 program = "/usr/bin/fish"
