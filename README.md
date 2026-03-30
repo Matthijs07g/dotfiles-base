@@ -39,12 +39,12 @@ After install, edit `monitors.conf` to match your display setup if needed. Every
 
 **Adding a file:**
 1. Create a file in somewhere in `~/dotfiles/`
-2. Add the package to the `PACKAGES` variable in `update.sh` if it's in a new folder
+2. If a folder was added then add the folder to the `PACKAGES` variable in `update.sh` if it's in a new folder
 3. Run `bash update.sh`
 
 **Removing a file:**
 1. Delete a file somewhere in `~/dotfiles/`
-2. Remove the package from the `PACKAGES` variable in `update.sh`
+2. If a folder was removed then remove the folder from the `PACKAGES` variable in `update.sh`
 3. Run `bash update.sh`
 
 ## Next steps
