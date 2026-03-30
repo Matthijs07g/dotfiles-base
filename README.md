@@ -10,7 +10,7 @@ hypr/.config/hypr/
 ├── binds.conf          # keybindings
 ├── env.conf            # environment variables
 ├── input.conf          # keyboard, mouse, touchpad settings
-├── monitors.conf       # monitor layout — edit this for your setup
+├── monitors.conf       # monitor layout 
 ├── permissions.conf    # portal and security settings
 ├── rules.conf          # window rules
 └── styling.conf        # gaps, borders, colors, animations
