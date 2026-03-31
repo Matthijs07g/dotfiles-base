@@ -24,6 +24,9 @@ alacritty/.config/alacritty/
 > [!NOTE]
 > The only opinionated choice this config makes is Alacritty as the terminal running Fish shell. Both can be swapped out easily in env.conf and alacritty.toml.
 
+> [!NOTE]
+> Make sure that you have git installed and have internet connection. You can always come back to the tty to try again later.
+
 ```bash
 git clone https://github.com/Matthijs07g/dotfiles-base ~/dotfiles
 cd ~/dotfiles
